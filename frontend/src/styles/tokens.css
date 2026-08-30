@@ -1,0 +1,54 @@
+/*
+  Design tokens for the Cloud-Powered Task Manager.
+  Theme idea: a student's desk / planner. A dark "ink" sidebar acts like the
+  spine of a notebook; task cards carry a colored left edge like index-card
+  tabs, colored by priority. Kept deliberately simple — this gets refined
+  further in the UI/UX phase.
+*/
+
+:root {
+  /* Color */
+  --color-bg: #eef2f7;          /* main content background (cool paper) */
+  --color-surface: #ffffff;      /* cards, panels */
+  --color-ink: #1c2536;          /* primary text / sidebar background */
+  --color-ink-soft: #4a5468;     /* secondary text */
+  --color-border: #d8dfe9;
+
+  --color-primary: #2f4b7c;      /* cobalt - primary actions, links */
+  --color-primary-hover: #253a61;
+
+  --color-priority-high: #e15554;
+  --color-priority-medium: #e8a33d;
+  --color-priority-low: #2f9e8f;
+
+  --color-success: #2f9e8f;
+  --color-danger: #e15554;
+  --color-warning: #e8a33d;
+
+  /* Typography */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+
+  /* Layout */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --sidebar-width: 220px;
+  --shadow-card: 0 1px 3px rgba(28, 37, 54, 0.08), 0 1px 2px rgba(28, 37, 54, 0.06);
+}

@@ -1,0 +1,15 @@
+.task-form {
+  max-width: 560px;
+}
+
+.task-form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+@media (max-width: 600px) {
+  .task-form-row {
+    grid-template-columns: 1fr;
+  }
+}

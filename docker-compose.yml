@@ -1,0 +1,32 @@
+# Runs the whole app locally with one command: `docker-compose up --build`
+#
+# IBM Cloudant is deliberately NOT a service here — it's an external managed
+# cloud database (that's the whole point of using it), so containerizing it
+# would be both pointless and impossible (it's not something IBM ships as a
+# Docker image you run yourself). The backend container just needs
+# CLOUDANT_URL / CLOUDANT_API_KEY to reach your real Cloudant instance over
+# the internet, same as when running it without Docker.
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # This is what a browser on your machine will use to reach the
+        # backend — the HOST-mapped port above, not a Docker-internal
+        # service name, because the browser (not the frontend container)
+        # is what actually makes these API calls.
+        VITE_API_URL: http://localhost:5000/api
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
