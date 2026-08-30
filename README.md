@@ -1,6 +1,84 @@
 # 📋 Cloud-Powered Task Manager
 
+[![GitHub](https://img.shields.io/badge/GitHub-cloud--powered--task--manager-blue?style=for-the-badge&logo=github)](https://github.com/premsahu-3125/cloud-powered-task-manager)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-v18+-green?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-19.2.8-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Express](https://img.shields.io/badge/Express-4.19.2-black?style=for-the-badge&logo=express)](https://expressjs.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-blue?style=for-the-badge&logo=docker)](https://www.docker.com/)
+
+> A **full-stack task management application** built for students and professionals to manage coursework, projects, and personal tasks with **real cloud database integration**, not just browser storage.
+
 A full-stack task management web application built with modern technologies, featuring user authentication, real-time task management, and cloud database integration. This portfolio project demonstrates full-stack development, REST API design, JWT authentication, and cloud infrastructure patterns.
+
+---
+
+## 🚀 Quick Start (3 Steps)
+
+### Option 1: Run Locally (Fastest Way)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/premsahu-3125/cloud-powered-task-manager.git
+cd cloud-powered-task-manager
+
+# 2. Setup backend (in terminal 1)
+cd backend && npm install && npm run dev
+# Backend runs on http://localhost:5000
+
+# 3. Setup frontend (in terminal 2)
+cd frontend && npm install && npm run dev
+# Frontend runs on http://localhost:5173 ← Open this in your browser!
+```
+
+### Option 2: Run with Docker (One Command)
+
+```bash
+docker-compose up --build
+# Automatically starts both backend and frontend
+# Frontend: http://localhost:5173
+# Backend: http://localhost:5000
+```
+
+---
+
+## 📊 Project Demo
+
+| Feature | Details |
+|---------|---------|
+| 🔑 **Authentication** | Register/Login with secure JWT tokens |
+| ✅ **Task Management** | Create, edit, delete, and complete tasks |
+| 🎯 **Prioritization** | Set priority levels (High/Medium/Low) |
+| 📂 **Categories** | Organize by College, Projects, Exams, etc. |
+| 📈 **Analytics** | Dashboard with statistics and charts |
+| 🔍 **Search & Filter** | Find tasks by title, status, priority, category |
+| ☁️ **Cloud Ready** | Optional IBM Cloudant database integration |
+
+---
+
+## 📚 Table of Contents
+
+- [🚀 Quick Start](#-quick-start-3-steps)
+- [✨ Features](#-features)
+- [🏗️ System Architecture](#-system-architecture)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📡 API Documentation](#-api-documentation)
+- [🐳 Docker Deployment](#-docker-deployment)
+- [🔒 Security Features](#-security-features)
+- [📖 Documentation](#-documentation)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 📖 Documentation
+
+| Document | Purpose |
+|----------|---------|
+| [**GETTING_STARTED.md**](GETTING_STARTED.md) | 👈 **Start here!** Step-by-step guide to run the project locally or with Docker |
+| [**CONTRIBUTING.md**](CONTRIBUTING.md) | Want to help? Learn how to contribute code, report bugs, or suggest features |
+| [**README.md**](README.md) | Full technical documentation, API docs, and architecture details |
 
 ## ✨ Features
 
