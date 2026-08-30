@@ -11,7 +11,21 @@
 
 ---
 
-## 🎯 Try It Now
+## � Deploy & Share Your Own
+
+Want a **live URL** you can share? Get one in 5 minutes:
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/premsahu-3125/cloud-powered-task-manager)
+
+**OR Follow this guide:**  
+📖 [Deployment Guide](./DEPLOYMENT.md) → Get a live URL on Railway/Render/Fly  
+⚡ [Quick Railway Deploy](./RAILWAY_QUICK_START.md) → Step-by-step (5 min)
+
+This adds a link to your GitHub repository's About section so anyone can try your app! 🎉
+
+---
+
+## �🎯 Try It Now
 
 ### ⚡ Quickest Way - Start in 30 Seconds
 
@@ -665,6 +679,27 @@ For major changes, please open an issue first to discuss what you would like to 
 - **Issues**: [GitHub Issues](https://github.com/premsahu-3125/cloud-powered-task-manager/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/premsahu-3125/cloud-powered-task-manager/discussions)
 - **Email**: premsahu.3125@gmail.com
+
+---
+
+## 🚀 Deployment
+
+Want to deploy this project and share a live link? It's easy!
+
+### One-Click Deploy (Easiest)
+Click the button in the **Deploy & Share Your Own** section above to deploy on Railway with one click.
+
+### Manual Deployment Steps
+1. Follow the [Deployment Guide](./DEPLOYMENT.md) for detailed instructions
+2. Choose your platform: Railway, Render, or Fly.io (all have free tiers)
+3. Get a live URL
+4. Add it to your GitHub repository's About section:
+   ```bash
+   gh repo edit premsahu-3125/cloud-powered-task-manager --homepage "https://your-deployment-url"
+   ```
+
+### Quick Start (5 Minutes)
+See [RAILWAY_QUICK_START.md](./RAILWAY_QUICK_START.md) for step-by-step instructions.
 
 ---
 
